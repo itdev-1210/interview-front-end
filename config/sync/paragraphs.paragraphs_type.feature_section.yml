@@ -1,0 +1,9 @@
+uuid: db735aea-d3ad-4939-a900-dd1bc5be1635
+langcode: en
+status: true
+dependencies: {  }
+id: feature_section
+label: 'Feature Section'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,22 @@
+uuid: f8e8febc-02ab-45a0-89e6-bf833b2c0ab1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.article_listing.field_articles
+    - paragraphs.paragraphs_type.article_listing
+id: paragraph.article_listing.default
+targetEntityType: paragraph
+bundle: article_listing
+mode: default
+content:
+  field_articles:
+    weight: 0
+    label: above
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

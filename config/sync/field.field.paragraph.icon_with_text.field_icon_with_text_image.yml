@@ -1,0 +1,38 @@
+uuid: f8221479-99b6-49a6-ad0c-9a3d9c55ae60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon_with_text_image
+    - paragraphs.paragraphs_type.icon_with_text
+  module:
+    - image
+id: paragraph.icon_with_text.field_icon_with_text_image
+field_name: field_icon_with_text_image
+entity_type: paragraph
+bundle: icon_with_text
+label: Image
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg svg'
+  max_filesize: 200KB
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

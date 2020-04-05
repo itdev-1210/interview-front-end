@@ -1,0 +1,9 @@
+uuid: e305cf40-2912-4bbf-9be4-c14991d9034d
+langcode: en
+status: true
+dependencies: {  }
+id: testimonial_listing
+label: 'Testimonial Listing'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

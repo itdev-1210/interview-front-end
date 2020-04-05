@@ -1,0 +1,33 @@
+uuid: ac2c78f6-2913-42d5-85b8-767d00dfb87d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.icon_with_text.field_icon_with_text_image
+    - field.field.paragraph.icon_with_text.field_icon_with_text_label
+    - paragraphs.paragraphs_type.icon_with_text
+  module:
+    - image
+id: paragraph.icon_with_text.default
+targetEntityType: paragraph
+bundle: icon_with_text
+mode: default
+content:
+  field_icon_with_text_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_icon_with_text_label:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

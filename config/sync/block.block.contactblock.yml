@@ -1,0 +1,29 @@
+uuid: 29f11933-5721-4056-938d-d9e58efd4249
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.work_with_us
+  module:
+    - contact_block
+    - system
+  theme:
+    - company
+id: contactblock
+theme: company
+region: content
+weight: 2
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact block'
+  provider: contact_block
+  label_display: '0'
+  contact_form: work_with_us
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

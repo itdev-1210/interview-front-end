@@ -1,0 +1,25 @@
+uuid: 1401a8ae-a7df-4b50-b336-f927307e9ee1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.testimonial_listing.field_testimonials
+    - paragraphs.paragraphs_type.testimonial_listing
+id: paragraph.testimonial_listing.default
+targetEntityType: paragraph
+bundle: testimonial_listing
+mode: default
+content:
+  field_testimonials:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

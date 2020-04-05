@@ -1,0 +1,12 @@
+uuid: fc692968-9686-4191-bce1-274394133ab1
+langcode: en
+status: true
+dependencies: {  }
+id: work_with_us
+label: 'Work with us'
+recipients:
+  - admin@company.com
+reply: ''
+weight: 0
+message: 'You have a new enquiry.'
+redirect: /

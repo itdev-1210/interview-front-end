@@ -1,0 +1,19 @@
+uuid: a6f26492-f989-4432-bdfa-d1c47c18d372
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.work_with_us
+    - field.storage.contact_message.field_email_address
+id: contact_message.work_with_us.field_email_address
+field_name: field_email_address
+entity_type: contact_message
+bundle: work_with_us
+label: 'Email Address'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

@@ -1,0 +1,22 @@
+uuid: c7e01bad-bb2b-4301-975a-133ce4931433
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - company
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: company_messages
+theme: company
+region: content
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

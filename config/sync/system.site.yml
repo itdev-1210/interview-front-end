@@ -1,0 +1,14 @@
+uuid: e2b33bdf-b30e-4f4e-b608-c9403966847d
+name: Company
+mail: admin@company.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

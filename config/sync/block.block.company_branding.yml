@@ -1,0 +1,25 @@
+uuid: 5023ecc6-cc8b-4604-8ac8-23a053e1dbf6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - company
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: company_branding
+theme: company
+region: header
+weight: -4
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

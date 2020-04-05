@@ -1,0 +1,19 @@
+uuid: d396560d-f711-4825-90db-e8d64e667b0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.work_with_us
+    - field.storage.contact_message.field_full_name
+id: contact_message.work_with_us.field_full_name
+field_name: field_full_name
+entity_type: contact_message
+bundle: work_with_us
+label: 'Full Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

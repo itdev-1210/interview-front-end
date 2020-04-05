@@ -1,0 +1,52 @@
+uuid: a5b03a59-fad7-4a04-b718-2c8e0be3c3ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.work_with_us
+    - field.field.contact_message.work_with_us.field_email_address
+    - field.field.contact_message.work_with_us.field_full_name
+    - field.field.contact_message.work_with_us.field_phone_number
+id: contact_message.work_with_us.default
+targetEntityType: contact_message
+bundle: work_with_us
+mode: default
+content:
+  field_email_address:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_full_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_phone_number:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  message:
+    type: string_textarea
+    weight: 3
+    settings:
+      rows: 12
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden:
+  copy: true
+  mail: true
+  name: true
+  preview: true
+  subject: true

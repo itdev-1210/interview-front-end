@@ -1,0 +1,24 @@
+uuid: bcfb7264-2e81-4ea4-a378-73c044583258
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.social-links
+  module:
+    - system
+  theme:
+    - company
+id: sociallinks
+theme: company
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:social-links'
+settings:
+  id: 'system_menu_block:social-links'
+  label: 'Social Links'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

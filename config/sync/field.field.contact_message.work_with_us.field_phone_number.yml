@@ -1,0 +1,19 @@
+uuid: 7170fa79-0894-4c99-80ef-9137fb02ed3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.work_with_us
+    - field.storage.contact_message.field_phone_number
+id: contact_message.work_with_us.field_phone_number
+field_name: field_phone_number
+entity_type: contact_message
+bundle: work_with_us
+label: 'Phone Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

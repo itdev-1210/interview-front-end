@@ -1,0 +1,9 @@
+uuid: e3bda152-1f10-4ccd-ab67-bfbbe1c78775
+langcode: en
+status: true
+dependencies: {  }
+id: icon_with_text
+label: 'Icon with Text'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,59 @@
+uuid: f2c87a91-cc90-4842-9d78-3d502fe00c95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.services_listing.field_banner
+    - field.field.paragraph.services_listing.field_description
+    - field.field.paragraph.services_listing.field_icon_with_text
+    - field.field.paragraph.services_listing.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.services_listing
+  module:
+    - image
+    - paragraphs
+id: paragraph.services_listing.default
+targetEntityType: paragraph
+bundle: services_listing
+mode: default
+content:
+  field_banner:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_description:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_icon_with_text:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

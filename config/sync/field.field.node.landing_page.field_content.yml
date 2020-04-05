@@ -1,0 +1,49 @@
+uuid: 0355e788-f5c0-4239-93be-a0328a95023d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.landing_page
+    - paragraphs.paragraphs_type.article_listing
+    - paragraphs.paragraphs_type.feature_section
+    - paragraphs.paragraphs_type.services_listing
+    - paragraphs.paragraphs_type.testimonial_listing
+  module:
+    - entity_reference_revisions
+id: node.landing_page.field_content
+field_name: field_content
+entity_type: node
+bundle: landing_page
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      article_listing: article_listing
+      services_listing: services_listing
+      feature_section: feature_section
+      testimonial_listing: testimonial_listing
+    target_bundles_drag_drop:
+      icon_with_text:
+        weight: 3
+        enabled: false
+      article_listing:
+        enabled: true
+        weight: 4
+      services_listing:
+        enabled: true
+        weight: 4
+      feature_section:
+        enabled: true
+        weight: 6
+      testimonial_listing:
+        enabled: true
+        weight: 10
+field_type: entity_reference_revisions
